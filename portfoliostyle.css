@@ -67,7 +67,7 @@
     font-display: block;
     text-anchor: middle;
     font style: georgia;
-    float:right;
+    float:left;
     background-image: url("../Responsive-Portfolio/images/plane-q-c-640-427-2.jpg");
     width: 150px;
     height: 150px;
@@ -91,6 +91,7 @@
   text-align: center;
   font size:16px;  
   margin right: auto;
+  float:right;
 }
 #sfcity{
   display: inline-block;
@@ -152,12 +153,14 @@
     font-size: 10px;
     text-emphasis-color: white;
     position:absolute;
-    bottom:absolute;
-    text-align: center;
+    bottom:0;
+    text-align: middle;
     border-top-style: solid;
     border-color:#4aaaa5; 
     margin-bottom:auto;
     min-height:45px;
+    display:flex;
+    align-content: center
 }
 }@media screen and (max-width: 640px) {
   header {
@@ -170,7 +173,7 @@
       margin-top: auto;
       margin-bottom:auto;
       position: auto;
-      margin: 0 auto;
+      margin: auto;
   }
   #container {
       position: auto;
@@ -178,7 +181,7 @@
       margin-right:auto;
       margin-top: auto;
       margin-bottom:auto;
-      margin: 0 auto;
+      margin: auto;
   }
 
 
