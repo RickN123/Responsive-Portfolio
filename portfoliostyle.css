@@ -39,7 +39,7 @@
     color: white;
   }
   #background {
-    background-image: url("../BasicPortfolio/dynamic-style.png");
+    background-image: url("../Responsive-Portfolio/dynamic-style.png");
     position:center;
     width: 100%;
     height:1000px;
@@ -48,19 +48,19 @@
     color: aqua;
   }
   #iphone {
-    display: block;
+    display: inline-block;
     font-display: block;
     text-anchor: middle;
     font style: georgia;
     float:right;
-    background-image: url("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg");
+    background-image: url("../Responsive-Portfolio/images/iphone-q-c-640-427-7.jpg");
     width: 150px;
     height: 150px;
     color: white;
     text-align: center;
     font size:16px;
-    margin-right:480px;
-    margin-top:20;
+    margin-right:auto;
+    margin-top:auto;
   }
   #airplane {
     display: block;
@@ -68,7 +68,7 @@
     text-anchor: middle;
     font style: georgia;
     float:right;
-    background-image: url("../BasicPortfolio/images/plane-q-c-640-427-2.jpg");
+    background-image: url("../Responsive-Portfolio/images/plane-q-c-640-427-2.jpg");
     width: 150px;
     height: 150px;
     color: white;
@@ -76,28 +76,28 @@
     font size:16px;
     margin-top:3%;
     margin-left:13%;
-    margin-bottom:420px;
-    margin-right:480px;
+    margin-bottom:auto;
+    margin-right:auto;
   }
 #soccer{
-  display: block;
+  display: inline-block;
   font-display: block;
   text-anchor: middle;
   font style: georgia;
-  background-image: url("../BasicPortfolio/images/Soccer-q-c-640-427-6.jpg");
+  background-image: url("../Responsive-Portfolio/images/Soccer-q-c-640-427-6.jpg");
   width: 150px;
   height: 150px;
   color: white;
   text-align: center;
   font size:16px;  
-  margin right: 25px;
+  margin right: auto;
 }
 #sfcity{
-  display: block;
+  display: inline-block;
   font-display: block;
   text-anchor: middle;
   font style: georgia;
-  background-image: url("../BasicPortfolio/images/sfcity-q-c-640-480-10.jpg");
+  background-image: url("../Responsive-Portfolio/images/sfcity-q-c-640-480-10.jpg");
   width: 150px;
   height: 150px;
   color: white;
@@ -117,8 +117,8 @@
     text-align: justify;
     top: 0;
     left: 0;
-    margin-left:300px;
-    margin-right:300px;
+    margin-left:auto;
+    margin-right:auto;
     align: center;
     background-position: relative;
     margin-top:0; 
@@ -128,10 +128,10 @@
     text-align: center;
   }
   #sushi{
-    display: block;
+    display: inline-block;
     font-display: block;
     font style: georgia;
-    background-image: url("../BasicPortfolio/images/sushifood-q-c-640-427-4.jpg");
+    background-image: url("../Responsive-Portfolio/images/sushifood-q-c-640-427-4.jpg");
     width: 150px;
     height: 150px;
     color: white;
@@ -159,3 +159,62 @@
     margin-bottom:auto;
     min-height:45px;
 }
+}@media screen and (max-width: 640px) {
+  header {
+    position:static;
+  }
+
+  body {
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      position: auto;
+      margin: 0 auto;
+  }
+  #container {
+      position: auto;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      margin: 0 auto;
+  }
+
+
+}@media screen and (max-width: 768px) {
+
+  body {
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      position: auto;
+      margin: 0 auto;
+  }
+  #container {
+      position: static;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      margin: 0 auto;
+  }
+}@media screen and (max-width: 980px) {
+
+  body {
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      position: auto;
+      margin: 0 auto;
+  }
+  #container {
+      position: static;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      margin: 0 auto;
+  }
