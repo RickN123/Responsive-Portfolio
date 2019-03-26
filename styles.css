@@ -75,15 +75,19 @@
     font-size: 10px;
     text-emphasis-color: white;
     position:absolute;
-    bottom:absolute;
+    bottom:0;
     text-align: center;
     border-top-style: solid;
     border-color:#4aaaa5; 
     margin-bottom:auto;
     min-height:45px;
+    flex: bottom;
 
   }
 }@media screen and (max-width: 640px) {
+  header {
+    position:static;
+  }
 
   body {
       margin-left:auto;
@@ -91,15 +95,15 @@
       margin-top: auto;
       margin-bottom:auto;
       position: auto;
-      margin: 0 auto;
+      margin: auto;
   }
-  #container {
+  #content {
       position: auto;
       margin-left:auto;
       margin-right:auto;
       margin-top: auto;
       margin-bottom:auto;
-      margin: 0 auto;
+      margin: auto;
   }
 
 
@@ -113,7 +117,7 @@
       position: auto;
       margin: 0 auto;
   }
-  #container {
+  #content {
       position: static;
       margin-left:auto;
       margin-right:auto;
@@ -131,7 +135,7 @@
       position: auto;
       margin: 0 auto;
   }
-  #container {
+  #content {
       position: static;
       margin-left:auto;
       margin-right:auto;

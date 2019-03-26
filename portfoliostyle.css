@@ -108,7 +108,7 @@
   position:relative;
 }
   #content { 
-    height:60%;
+    height:100%;
     width: 60%;
     background-color: rgb(232, 236, 236);
     color: #777777;
@@ -175,7 +175,7 @@
       position: auto;
       margin: auto;
   }
-  #container {
+  #content {
       position: auto;
       margin-left:auto;
       margin-right:auto;
@@ -195,7 +195,7 @@
       position: auto;
       margin: 0 auto;
   }
-  #container {
+  #content {
       position: static;
       margin-left:auto;
       margin-right:auto;
@@ -213,7 +213,7 @@
       position: auto;
       margin: 0 auto;
   }
-  #container {
+  #content {
       position: static;
       margin-left:auto;
       margin-right:auto;
