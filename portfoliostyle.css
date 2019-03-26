@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+  }
+  #header{
+    background-color: #ffffff;
+    height: 40px;
+    color: rgb(255, 248, 248);
+    position:absolute fixed;
+    top:0;
+    font: georgia;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+
+  }
+  #name1 {
+    display:inline-block;
+
+  }
+  body {
+    margin: 0px;
+  }
+  #name1 {
+    background-color:aqua;
+    width: 50px;
+    height: 40px;
+    margin-left: 50px;
+    text-align:center;
+    display: inline-block;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  #links {
+    display:inline-block;
+    position: absolute;
+    margin-right: 10%;
+    top:0;
+    right:0;
+    color: white;
+  }
+  #background {
+    background-image: url("../BasicPortfolio/dynamic-style.png");
+    position:center;
+    width: 100%;
+    height:1000px;
+  }
+  #h1 {
+    color: aqua;
+  }
+  #iphone {
+    display: block;
+    font-display: block;
+    text-anchor: middle;
+    font style: georgia;
+    float:right;
+    background-image: url("../BasicPortfolio/images/iphone-q-c-640-427-7.jpg");
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font size:16px;
+    margin-right:480px;
+    margin-top:20;
+  }
+  #airplane {
+    display: block;
+    font-display: block;
+    text-anchor: middle;
+    font style: georgia;
+    float:right;
+    background-image: url("../BasicPortfolio/images/plane-q-c-640-427-2.jpg");
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font size:16px;
+    margin-top:3%;
+    margin-left:13%;
+    margin-bottom:420px;
+    margin-right:480px;
+  }
+#soccer{
+  display: block;
+  font-display: block;
+  text-anchor: middle;
+  font style: georgia;
+  background-image: url("../BasicPortfolio/images/Soccer-q-c-640-427-6.jpg");
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font size:16px;  
+  margin right: 25px;
+}
+#sfcity{
+  display: block;
+  font-display: block;
+  text-anchor: middle;
+  font style: georgia;
+  background-image: url("../BasicPortfolio/images/sfcity-q-c-640-480-10.jpg");
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font size:16px;  
+  margin right: 25px;
+  position:relative;
+}
+  #content { 
+    height:60%;
+    width: 60%;
+    background-color: rgb(232, 236, 236);
+    color: #777777;
+    border-color:#cccccc;
+    font-size: 16px;
+    text-decoration-color: rgb(253, 253, 253);
+    text-align: justify;
+    top: 0;
+    left: 0;
+    margin-left:300px;
+    margin-right:300px;
+    align: center;
+    background-position: relative;
+    margin-top:0; 
+  }
+  #sfcitywrapper {
+    position: relative;
+    text-align: center;
+  }
+  #sushi{
+    display: block;
+    font-display: block;
+    font style: georgia;
+    background-image: url("../BasicPortfolio/images/sushifood-q-c-640-427-4.jpg");
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    font size:16px;  
+    right: 0;
+    align: right;
+  }
+  #sushiwrapper{
+      position: right;
+      text-align: center;
+  }
+
+  #footer {
+    width: 100%;
+    background-color: rgb(112, 124, 124);
+    height: 20px;
+    font-size: 10px;
+    text-emphasis-color: white;
+    position:absolute;
+    bottom:absolute;
+    text-align: center;
+    border-top-style: solid;
+    border-color:#4aaaa5; 
+    margin-bottom:auto;
+    min-height:45px;
+}
